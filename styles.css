@@ -382,3 +382,46 @@ textarea:focus,
 button:focus {
     outline: none;
 }
+
+
+/* Experience section */
+.timeline-container{
+    position: relative;
+    width: 75%;
+    border: 2px solid black;
+}
+
+.timeline-content{
+    position: relative;
+    width: 40%;
+    min-height: 150px;
+    left: 5%;
+    border: 2px solid red;
+    margin: 7px;
+}
+
+.timeline-content:nth-child(2n+1){
+    left: 53%;
+}
+
+.timeline-divider{
+    position: absolute;
+    height: 80%;
+    width: 0px;
+    border: 1px solid #0abcf9;
+    left: 50%;
+    top: 10%;
+}
+
+.timeline-divider .timeline-traveller {
+    position: sticky;
+    top: 135px;
+    z-index: 2;
+}
+
+.timeline-divider i {
+    transform: rotate(90deg);
+  	margin-top: -35px;
+    display: block;
+    color: #2857a4;
+}
